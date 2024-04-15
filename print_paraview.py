@@ -82,7 +82,10 @@ def print_paraview (ncoords, mesh):
 
     return;
 
-
+# Example of use
+ncoords=[[0,0,0],[1,0,0],[0,1,0],[0,0,1]]
+mesh=[[0,1,2,3]]
+print_paraview(ncoords, mesh)
 
 
 
